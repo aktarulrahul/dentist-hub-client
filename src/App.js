@@ -11,46 +11,49 @@ import Signup from './pages/Signup/Signup';
 import ServicesProvider from './contexts/ServicesProvider';
 import Services from './pages/Services/Services';
 import Confirm from './pages/Confirm/Confirm';
+import AuthProvider from './contexts/AuthProvider';
 
 function App() {
   return (
     <ServicesProvider>
-      <BrowserRouter>
-        <MenuBar />
-        <Switch>
-          <Route exact path="/">
-            <Home />
-          </Route>
-          <Route path="/home">
-            <Home />
-          </Route>
-          <Route path="/about">
-            <About />
-          </Route>
-          <Route path="/contact">
-            <Contact />
-          </Route>
-          <Route path="/signin">
-            <Signin />
-          </Route>
-          <Route path="/signup">
-            <Signup />
-          </Route>
-          <Route path="/confirm">
-            <Confirm />
-          </Route>
-          <Route exact path="/services">
-            <Services />
-          </Route>
-          <Route path="/services/:serviceId">
-            <ServiceDetails />
-          </Route>
-          <Route path="*">
-            <NotFound />
-          </Route>
-        </Switch>
-        <Footer />
-      </BrowserRouter>
+      <AuthProvider>
+        <BrowserRouter>
+          <MenuBar />
+          <Switch>
+            <Route exact path="/">
+              <Home />
+            </Route>
+            <Route path="/home">
+              <Home />
+            </Route>
+            <Route path="/about">
+              <About />
+            </Route>
+            <Route path="/contact">
+              <Contact />
+            </Route>
+            <Route path="/signin">
+              <Signin />
+            </Route>
+            <Route path="/signup">
+              <Signup />
+            </Route>
+            <Route path="/confirm">
+              <Confirm />
+            </Route>
+            <Route exact path="/services">
+              <Services />
+            </Route>
+            <Route path="/services/:serviceId">
+              <ServiceDetails />
+            </Route>
+            <Route path="*">
+              <NotFound />
+            </Route>
+          </Switch>
+          <Footer />
+        </BrowserRouter>
+      </AuthProvider>
     </ServicesProvider>
   );
 }
