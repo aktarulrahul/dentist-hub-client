@@ -6,12 +6,12 @@ import About from './pages/About/About';
 import Contact from './pages/Contact/Contact';
 import ServiceDetails from './pages/ServiceDetails/ServiceDetails';
 import NotFound from './pages/NotFound/NotFound';
-import Signin from './pages/Signin/Signin';
-import Signup from './pages/Signup/Signup';
+import SignInUp from './pages/SignInUp/SignInUp';
 import ServicesProvider from './contexts/ServicesProvider';
 import Services from './pages/Services/Services';
 import Confirm from './pages/Confirm/Confirm';
 import AuthProvider from './contexts/AuthProvider';
+import PrivateRoute from './components/PrivateRoute/PrivateRoute';
 
 function App() {
   return (
@@ -32,21 +32,18 @@ function App() {
             <Route path="/contact">
               <Contact />
             </Route>
-            <Route path="/signin">
-              <Signin />
+            <Route path="/sign-in-up">
+              <SignInUp />
             </Route>
-            <Route path="/signup">
-              <Signup />
-            </Route>
-            <Route path="/confirm">
+            <PrivateRoute path="/confirm">
               <Confirm />
-            </Route>
+            </PrivateRoute>
             <Route exact path="/services">
               <Services />
             </Route>
-            <Route path="/services/:serviceId">
+            <PrivateRoute path="/services/:serviceId">
               <ServiceDetails />
-            </Route>
+            </PrivateRoute>
             <Route path="*">
               <NotFound />
             </Route>

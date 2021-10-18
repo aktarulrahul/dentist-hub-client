@@ -12,7 +12,7 @@ const ServiceDetails = () => {
     history.push('/confirm');
   };
   return (
-    <div className="w-1/3 mx-auto text-center">
+    <div className="md:w-2/3 lg:w-1/2  mx-auto text-center">
       <ServiceCard
         service={displayDetails}
         btn="Confirm"

@@ -22,7 +22,7 @@ const ServiceCard = ({ service, handleDetails, btn }) => {
           onClick={handleDetails}
           className="text-white bg-blue-500 px-4 py-2 rounded-full"
         >
-          <i className="fas fa-tooth"></i> {btn} {name}
+          <i className="fas fa-tooth"></i> {btn}
         </button>
       </div>
     </div>

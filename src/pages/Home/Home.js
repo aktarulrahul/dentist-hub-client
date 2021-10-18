@@ -12,7 +12,7 @@ const Home = () => {
         sub="Dedicated to excellence. Dedicated to your smile."
         title="Make your Smile Shine"
         img={banner}
-        link="/contact"
+        link="/services"
         btn="Make an Appointment"
         additionalStyle="pt-16 lg:h-screen h-full"
       />
