@@ -2,7 +2,7 @@ import React from 'react';
 import './Banner.css';
 import { Link } from 'react-router-dom';
 
-const Banner = ({ img, title, sub, link, btn }) => {
+const Banner = ({ img, title, sub, link, btn, style }) => {
   return (
     <div className="m-4 dh-banner-bg rounded-lg flex-none md:flex justify-between items-center px-6">
       <div>
@@ -10,7 +10,7 @@ const Banner = ({ img, title, sub, link, btn }) => {
         <p className="text-white text-3xl mb-5">{sub}</p>
         <div className="mb-10">
           <Link to={link}>
-            <button className="bg-white border border-blue-600 text-blue-600 rounded-full py-3 px-6 transition duration-500 ease-in-out transform hover:scale-110 ">
+            <button className="bg-white border border-blue-600 text-blue-600 rounded-full py-3 px-6 transition duration-500 ease-in-out transform hover:scale-110">
               {btn}
             </button>
           </Link>
@@ -18,7 +18,10 @@ const Banner = ({ img, title, sub, link, btn }) => {
       </div>
       <div>
         <img
-          className=" transition duration-500 ease-in-out transform  hover:-translate-y-1 hover:scale-105 lg:h-screen pt-16 h-full"
+          className={
+            `transition duration-500 ease-in-out transform  hover:-translate-y-1 hover:scale-105 ` +
+            style
+          }
           src={img}
           alt={title}
         />

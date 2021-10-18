@@ -9,6 +9,7 @@ import NotFound from './pages/NotFound/NotFound';
 import Signin from './pages/Signin/Signin';
 import Signup from './pages/Signup/Signup';
 import ServicesProvider from './contexts/ServicesProvider';
+import Services from './pages/Services/Services';
 
 function App() {
   return (
@@ -33,6 +34,9 @@ function App() {
           </Route>
           <Route path="/signup">
             <Signup />
+          </Route>
+          <Route exact path="/services">
+            <Services />
           </Route>
           <Route path="/services/:serviceId">
             <ServiceDetails />

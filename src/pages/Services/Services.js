@@ -1,24 +1,22 @@
 import React from 'react';
 import Banner from '../../components/Banner/Banner';
 import ServiceContainer from '../../components/ServiceContainer/ServiceContainer';
-import Testimonials from '../../components/Testimonials/Testimonials';
-import banner from '../../images/dh-4.png';
+import img from '../../images/dh-6.png';
 
-const Home = () => {
+const Services = () => {
   return (
     <div>
       <Banner
         sub="Dedicated to excellence. Dedicated to your smile."
         title="Make your Smile Shine"
-        img={banner}
+        img={img}
         link="/contact"
         btn="Make an Appointment"
-        style="pt-16 lg:h-screen h-full"
+        style="h-full lg:h-screen pt-16 pr-10"
       />
-      <ServiceContainer featured={true} />
-      <Testimonials />
+      <ServiceContainer featured={false} />
     </div>
   );
 };
 
-export default Home;
+export default Services;

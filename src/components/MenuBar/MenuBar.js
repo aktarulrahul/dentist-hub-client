@@ -7,7 +7,9 @@ const MenuBar = () => {
     <div className="md:sticky top-0 z-10 bg-blue-500 mb-4 p-2 xl:px-4">
       <div className="m-2 md:flex md:h-14 md:items-center md:justify-between text-white text-center">
         <NavLink to="/">
-          <h2 className="text-4xl font-bold">Dentist Hub</h2>
+          <h2 className="text-4xl font-bold">
+            <i className="fas fa-tooth"></i> Dentist Hub
+          </h2>
         </NavLink>
         <div className="flex md:justify-center justify-around items-center my-2">
           <div className="px-2">
@@ -36,6 +38,20 @@ const MenuBar = () => {
               }}
             >
               About
+            </NavLink>
+          </div>
+          <div className="px-2">
+            <NavLink
+              to="/services"
+              activeStyle={{
+                fontWeight: 'bold',
+                backgroundColor: '#3043B8',
+                color: '#fff',
+                borderRadius: '20px',
+                padding: '4px 10px',
+              }}
+            >
+              All Services
             </NavLink>
           </div>
           <div className="px-2">

@@ -4,41 +4,71 @@
     "name": "Dental implants",
     "img": "https://images.unsplash.com/photo-1562330743-fbc6ef07ca78?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTR8fGRlbnRhbCUyMGltcGxhbnRzfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60",
     "price": 480,
-    "description": "A dental implant is a surgical component that interfaces with the bone of the jaw or skull to support a dental prosthesis such as a crown, bridge, denture, or facial prosthesis or to act as an orthodontic anchor."
+    "description": "A dental implant is a surgical component that interfaces with the bone of the jaw or skull to support a dental prosthesis such as a crown, bridge, denture, or facial prosthesis or to act as an orthodontic anchor.",
+    "featured": true
   },
   {
     "key": "6",
     "name": "Cosmetic treatment",
     "img": "https://images.unsplash.com/photo-1564420228450-d9a5bc8d6565?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTl8fGRlbnRhbCUyMGNvc21ldGljJTIwdHJlYXRtZW50fGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60",
     "price": 120,
-    "description": "Cosmetic dentistry consists of various professional procedures that concentrate on enhancing the aesthetics of teeth. Some of these techniques also provide restorative benefits such as fixing dental problems."
+    "description": "Cosmetic dentistry consists of various professional procedures that concentrate on enhancing the aesthetics of teeth. Some of these techniques also provide restorative benefits such as fixing dental problems.",
+    "featured": false
   },
   {
     "key": "2",
     "name": "Dental checkup",
     "img": "https://images.unsplash.com/photo-1581585004042-bca38021ce1e?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NDN8fGRlbnRhbCUyMGNoZWNrdXB8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60",
     "price": 105,
-    "description": "There are 2 parts to a regular dental visit – check up, or examination and the cleaning, or oral prophylaxis. At the dental check up your dental professional will check for cavities. X-rays might be taken to detect cavities between your teeth. "
+    "description": "There are 2 parts to a regular dental visit – check up, or examination and the cleaning, or oral prophylaxis. At the dental check up your dental professional will check for cavities. X-rays might be taken to detect cavities between your teeth. ",
+    "featured": true
   },
   {
     "key": "3",
     "name": "Root canal",
     "img": "https://images.unsplash.com/photo-1593022356769-11f762e25ed9?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8cm9vdCUyMGNhbmFsfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60",
     "price": 95,
-    "description": "Root canal treatment is a treatment sequence for the infected pulp of a tooth which is intended to result in the elimination of infection and the protection of the decontaminated tooth from future microbial invasion."
+    "description": "Root canal treatment is a treatment sequence for the infected pulp of a tooth which is intended to result in the elimination of infection and the protection of the decontaminated tooth from future microbial invasion.",
+    "featured": true
   },
   {
     "key": "4",
     "name": "Tooth Extraction",
     "img": "https://images.unsplash.com/photo-1619988252418-a1e6ee10b122?ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8dG9vdGglMjBleHRyYWN0aW9ufGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60",
     "price": 50,
-    "description": "A dental implant is a surgical component that interfaces with the bone of the jaw or skull to support a dental prosthesis such as a crown, bridge, denture, or facial prosthesis or to act as an orthodontic anchor."
+    "description": "A dental implant is a surgical component that interfaces with the bone of the jaw or skull to support a dental prosthesis such as a crown, bridge, denture, or facial prosthesis or to act as an orthodontic anchor.",
+    "featured": true
   },
   {
     "key": "5",
     "name": "Teeth Bonding",
     "img": "https://images.unsplash.com/photo-1606811971618-4486d14f3f99?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8ZGVudGFsJTIwaW1wbGFudHN8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60",
     "price": 110,
-    "description": "Teeth bonding is a procedure in which a tooth-colored resin material (a durable plastic material) is applied and hardened with a special light, which ultimately bonds the material to the tooth to restore or improve a person's smile."
+    "description": "Teeth bonding is a procedure in which a tooth-colored resin material (a durable plastic material) is applied and hardened with a special light, which ultimately bonds the material to the tooth to restore or improve a person's smile.",
+    "featured": false
+  },
+  {
+    "key": "7",
+    "name": "Teeth Cleaning",
+    "img": "https://images.unsplash.com/photo-1580821810660-5486b8e980a6?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjJ8fHRlZXRoJTIwY2xlYW5pbmd8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60",
+    "price": 80,
+    "description": "General guidelines state that patients should make an appointment for a professional dental cleaning every six months. While this is ideal for most people, some will need to come in every three months and others will only need to come in every nine or 12 months.",
+    "featured": true
+  },
+  {
+    "key": "8",
+    "name": "Dental Fillings",
+    "img": "https://images.unsplash.com/photo-1591283261401-c76eba2d369a?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1470&q=80",
+    "price": 100,
+    "description": "several dental filling materials are available. Teeth can be filled with gold; porcelain; silver amalgam (which consists of mercury mixed with silver, tin, zinc, and copper); or tooth-colored, plastic, and materials called composite resin fillings.",
+    "featured": false
+  },
+  {
+    "key": "9",
+    "name": "Dental Veneers",
+    "img": "https://images.unsplash.com/photo-1468493858157-0da44aaf1d13?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8ZGVudGFsJTIwdmVuZWVyc3xlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60",
+    "price": 350,
+    "description": "Veneers are a great way to improve your smile, especially if your teeth are chipped, malformed, very discolored or will not and cannot be whitened. The pros of veneers are that they can be done in only two visits, the color easily changes, and the porcelain has the real look of teeth and will not stain.",
+    "featured": true
   }
 ]
