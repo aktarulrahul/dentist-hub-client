@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 
 const Banner = ({ img, title, sub, link, btn }) => {
   return (
-    <div className="m-4 hbd-banner-bg rounded-lg flex-none md:flex justify-between items-center px-6">
+    <div className="m-4 dh-banner-bg rounded-lg flex-none md:flex justify-between items-center px-6">
       <div>
         <h1 className="text-5xl mb-3 font-extrabold text-white">{title}</h1>
         <p className="text-white text-3xl mb-5">{sub}</p>

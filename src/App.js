@@ -8,10 +8,11 @@ import ServiceDetails from './pages/ServiceDetails/ServiceDetails';
 import NotFound from './pages/NotFound/NotFound';
 import Signin from './pages/Signin/Signin';
 import Signup from './pages/Signup/Signup';
+import ServicesProvider from './contexts/ServicesProvider';
 
 function App() {
   return (
-    <div>
+    <ServicesProvider>
       <BrowserRouter>
         <MenuBar />
         <Switch>
@@ -42,7 +43,7 @@ function App() {
         </Switch>
         <Footer />
       </BrowserRouter>
-    </div>
+    </ServicesProvider>
   );
 }
 
