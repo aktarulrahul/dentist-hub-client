@@ -13,7 +13,7 @@ const Home = () => {
         img={banner}
         link="/contact"
         btn="Make an Appointment"
-        style="pt-16 lg:h-screen h-full"
+        additionalStyle="pt-16 lg:h-screen h-full"
       />
       <ServiceContainer featured={true} />
       <Testimonials />

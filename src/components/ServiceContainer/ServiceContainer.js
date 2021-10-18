@@ -22,6 +22,7 @@ const ServiceContainer = ({ featured }) => {
           <ServiceCard
             key={service.key}
             service={service}
+            btn="Book"
             handleDetails={() => handleDetails(service.key)}
           />
         ))}

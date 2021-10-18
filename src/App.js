@@ -10,6 +10,7 @@ import Signin from './pages/Signin/Signin';
 import Signup from './pages/Signup/Signup';
 import ServicesProvider from './contexts/ServicesProvider';
 import Services from './pages/Services/Services';
+import Confirm from './pages/Confirm/Confirm';
 
 function App() {
   return (
@@ -34,6 +35,9 @@ function App() {
           </Route>
           <Route path="/signup">
             <Signup />
+          </Route>
+          <Route path="/confirm">
+            <Confirm />
           </Route>
           <Route exact path="/services">
             <Services />

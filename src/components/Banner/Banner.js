@@ -2,7 +2,7 @@ import React from 'react';
 import './Banner.css';
 import { Link } from 'react-router-dom';
 
-const Banner = ({ img, title, sub, link, btn, style }) => {
+const Banner = ({ img, title, sub, link, btn, additionalStyle }) => {
   return (
     <div className="m-4 dh-banner-bg rounded-lg flex-none md:flex justify-between items-center px-6">
       <div>
@@ -20,7 +20,7 @@ const Banner = ({ img, title, sub, link, btn, style }) => {
         <img
           className={
             `transition duration-500 ease-in-out transform  hover:-translate-y-1 hover:scale-105 ` +
-            style
+            additionalStyle
           }
           src={img}
           alt={title}

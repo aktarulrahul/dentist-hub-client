@@ -1,6 +1,6 @@
 import React from 'react';
 
-const ServiceCard = ({ service, handleDetails }) => {
+const ServiceCard = ({ service, handleDetails, btn }) => {
   const { name, img, price, description } = service;
   return (
     <div className="m-2 p-3 border border-gray-100 rounded shadow-lg ransition duration-500 ease-in-out transform hover:scale-105">
@@ -22,7 +22,7 @@ const ServiceCard = ({ service, handleDetails }) => {
           onClick={handleDetails}
           className="text-white bg-blue-500 px-4 py-2 rounded-full"
         >
-          <i className="fas fa-tooth"></i> Book {name}
+          <i className="fas fa-tooth"></i> {btn} {name}
         </button>
       </div>
     </div>

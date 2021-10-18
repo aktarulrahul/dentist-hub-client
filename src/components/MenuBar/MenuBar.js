@@ -5,7 +5,7 @@ const MenuBar = () => {
   const user = { name: 'rahul', email: 'rahul@rahul.com' };
   return (
     <div className="md:sticky top-0 z-10 bg-blue-500 mb-4 p-2 xl:px-4">
-      <div className="m-2 md:flex md:h-14 md:items-center md:justify-between text-white text-center">
+      <div className="m-2 lg:flex lg:h-14 lg:items-center lg:justify-between md:justify-around text-white text-center">
         <NavLink to="/">
           <h2 className="text-4xl font-bold">
             <i className="fas fa-tooth"></i> Dentist Hub
