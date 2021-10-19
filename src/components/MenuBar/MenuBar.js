@@ -80,9 +80,7 @@ const MenuBar = () => {
                 src={user.photoURL ? user.photoURL : avater}
                 alt=""
               />
-              <p className="mx-2">
-                {isLoading ? 'Loading..' : user.displayName}
-              </p>
+              <p className="mx-2">{user.displayName}</p>
               <button
                 onClick={logOut}
                 className="text-blue-500 px-4 py-2 rounded-full bg-white"

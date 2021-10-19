@@ -17,7 +17,7 @@ const NotFound = () => {
           </NavLink>
         </div>
         <div className="my-3">
-          <img className="w-2/3" src={notFound} alt="" />
+          <img className="mx-auto w-2/3" src={notFound} alt="" />
         </div>
       </div>
     </div>
