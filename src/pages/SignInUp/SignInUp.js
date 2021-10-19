@@ -69,6 +69,7 @@ const SignInUp = () => {
             history.push(redirect_uri);
             setUser(result.user);
             setError('');
+            setIsLoading('false');
           })
           .catch((error) => {
             setError(error.message);

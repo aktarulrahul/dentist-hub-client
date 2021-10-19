@@ -11,6 +11,7 @@ const ServiceDetails = () => {
   const handleDetails = () => {
     history.push('/confirm');
   };
+
   return (
     <div className="md:w-2/3 lg:w-1/2  mx-auto text-center">
       <ServiceCard

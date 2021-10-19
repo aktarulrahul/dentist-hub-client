@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "name": "Bev Lambert",
+    "says": "I have always been treated with care and everyone is very professional. This makes coming to the dentist a lot more pleasant. My front teeth had lots of problems and the veneers solved all of them. My smile looks better than it ever has.",
+    "img": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=687&q=80"
+  },
+  {
+    "id": 2,
+    "name": "Ayra",
+    "says": " II was always treated with respect and humor! It was always a positive place to be. I would recommend treatment to others. It did cost a bit of money but it was well worth it!. I highly recomend it",
+    "img": "https://images.unsplash.com/photo-1609840113322-a70583f106eb?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTN8fGZlbWFsZSUyMGRlbnRpc3R8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60"
+  },
+  {
+    "id": 3,
+    "name": "Sansa",
+    "says": "This is truly a blessing for me. I have wanted a great, beautiful smile for a long time and with their help I am going to have that. I would recommend them to anyone thinking of choosing to have a smile again.",
+    "img": "https://images.unsplash.com/photo-1508002366005-75a695ee2d17?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjV8fGRlbnRhbHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=800&q=60"
+  }
+]
