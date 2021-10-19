@@ -12,7 +12,7 @@ const Services = () => {
         img={img}
         link="/contact"
         btn="Make an Appointment"
-        additionalStyle="h-full lg:h-screen pt-16 pr-10"
+        additionalStyle="md:pt-16 lg:h-screen pr-10"
       />
       <ServiceContainer featured={false} />
     </div>

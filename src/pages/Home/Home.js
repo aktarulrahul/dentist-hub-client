@@ -14,7 +14,7 @@ const Home = () => {
         img={banner}
         link="/services"
         btn="Make an Appointment"
-        additionalStyle="pt-16 lg:h-screen h-full"
+        additionalStyle="lg:h-screen h-full"
       />
       <ServiceContainer featured={true} />
       <Testimonials />

@@ -18,7 +18,7 @@ const About = () => {
         img={img}
         link="/services"
         btn="Our All Services"
-        additionalStyle="pt-16 lg:h-screen h-full"
+        additionalStyle="lg:h-screen h-full"
       />
       <div className="my-4 md:flex justify-between items-center mx-4 px-2 shadow-lg rounded border py-2">
         <img
