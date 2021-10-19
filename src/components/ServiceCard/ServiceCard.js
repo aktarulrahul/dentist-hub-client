@@ -4,7 +4,7 @@ const ServiceCard = ({ service, handleDetails, btn }) => {
   const { name, img, price, description } = service;
   return (
     <div className="mx-2 my-4 p-3 border border-gray-100 rounded shadow-lg ransition duration-500 ease-in-out transform hover:scale-105">
-      <img className="rounded shadow" src={img} alt="" />
+      <img className="rounded shadow mx-auto" src={img} alt="" />
       <h2 className="text-center text-xl text-blue-600 font-bold my-2">
         {name}
       </h2>
