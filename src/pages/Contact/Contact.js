@@ -15,7 +15,7 @@ const Contact = () => {
         img={img}
         link="/services"
         btn="Our All Services"
-        additionalStyle="pt-16 lg:h-screen h-full"
+        additionalStyle="pt-16 lg:h-screen md:h-full"
       />
       <div className="md:flex justify-arround m-4 itrms-center border rounded shadow-lg overflow-hidden">
         <img
