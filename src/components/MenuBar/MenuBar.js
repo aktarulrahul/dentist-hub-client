@@ -4,7 +4,7 @@ import useAuth from '../../hooks/useAuth';
 import avater from '../../images/avater.png';
 
 const MenuBar = () => {
-  const { user, logOut, isLoading } = useAuth();
+  const { user, logOut } = useAuth();
   return (
     <div className="md:sticky top-0 z-10 bg-blue-500 mb-4 p-2 xl:px-4">
       <div className="m-2 lg:flex lg:h-14 lg:items-center lg:justify-between md:justify-around text-white text-center">

@@ -67,11 +67,10 @@ const SignInUp = () => {
       ? signInUsingEmailPassowrd(email, password)
           .then((result) => {
             history.push(redirect_uri);
-            setIsLoading(true);
             setUser(result.user);
             setError('');
+            setIsLoading('false');
           })
-          .then(() => setIsLoading('false'))
           .catch((error) => {
             setError(error.message);
           })
