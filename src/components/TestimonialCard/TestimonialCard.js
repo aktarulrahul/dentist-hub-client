@@ -3,7 +3,7 @@ import React from 'react';
 const TestimonialCard = ({ feedback }) => {
   const { name, says, img } = feedback;
   return (
-    <div className="bg-white p-4 rounded shadow-lg ransition duration-500 ease-in-out transform hover:scale-105">
+    <div className="bg-white p-4 rounded shadow-lg ransition duration-500 ease-in-out transform hover:scale-105 mb-3">
       <blockquote>
         <q className="talic">{says}</q>
       </blockquote>
